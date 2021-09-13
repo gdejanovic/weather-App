@@ -5,13 +5,15 @@ const form = document.querySelector(".top-banner form");
 const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
+ 
+// Get your own key at openweather it's free
 const apiKey = "246acead69623e89ab17577242a21e9c";
 
 form.addEventListener("submit", e => {
   e.preventDefault();
   let inputVal = input.value;
 
-  //check if there's already a city
+  //check if you already entered that city
   const listItems = list.querySelectorAll(".ajax-section .city");
   const listItemsArray = Array.from(listItems);
 
