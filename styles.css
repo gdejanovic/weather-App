@@ -1,5 +1,4 @@
 
-
 :root {
     --bg_main: #0a1f44;
     --text_light: #fff;
@@ -60,7 +59,6 @@
     margin: 0 auto;
     padding: 0 15px;
   }
-  
   
   /* Section 1 */
   .top-banner {
@@ -126,6 +124,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
   
+  /* City */
   .ajax-section .city {
     position: relative;
     padding: 40px 10%;
