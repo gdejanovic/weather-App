@@ -7,7 +7,7 @@ const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
  
 // Get your own key at openweather it's free
-const apiKey = "your API HERE";
+const apiKey = "";
 
 form.addEventListener("submit", e => {
   e.preventDefault();
